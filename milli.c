@@ -3,14 +3,14 @@
 
 // Definizione del tuo carattere personalizzato 8x8 (Pattern a scacchiera)
 unsigned char customChar[8] = {
+  0b01111111,
   0b01010101,
-  0b10101010,
   0b01010101,
-  0b10101010,
+  0b00010101,
+  0b00010101,
   0b01010101,
-  0b10101010,
-  0b01010101,
-  0b10101010
+  0b01010111,
+  0b01010101
 };
 
 // Funzione che simula l'invio/stampa del carattere nella finestra attiva
